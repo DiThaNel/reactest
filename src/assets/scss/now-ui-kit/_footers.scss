@@ -1,0 +1,45 @@
+.footer{
+    padding: 50px 0;
+    background-color: #1e161d;
+
+    &.footer-default{
+        background-color: #1e161d;
+    }
+
+    nav{
+        display: inline-block;
+        float: left;
+    }
+
+    ul{
+        margin-bottom: 0;
+        padding: 0;
+        list-style: none;
+
+        li{
+            display: inline-block;
+
+            a{
+                color: white;
+                padding-right: 4em;
+                font-size: $font-size-small;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .copyright{
+        font-size: $font-size-small;
+        color: white;
+    }
+
+    &:after{
+        display: table;
+        clear: both;
+        content: " ";
+    }
+}
